@@ -1,0 +1,6 @@
+# 数值与后处理（流动算例频谱等会用到）
+numpy>=1.20
+
+# 注意：FEniCS 与 mshr 需按官方方式单独安装（如 Ubuntu 的 FEniCS PPA、
+# Docker 镜像、conda 等），无法仅凭本文件通过 pip 在 Windows 上装齐。
+# 请在已能 `import fenics` / `import mshr` 的环境中运行本仓库。
